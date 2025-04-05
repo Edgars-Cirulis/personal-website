@@ -44,20 +44,6 @@
 
 <div class="divider"></div>
 
-<section class="section" id="stack">
-	<h2>Tech Stack</h2>
-	<ul class="stack-list">
-		<li>SvelteKit</li>
-		<li>TypeScript</li>
-		<li>OpenGL / Vulkan</li>
-		<li>SDL2</li>
-		<li>Node.js</li>
-		<li>WebGL</li>
-	</ul>
-</section>
-
-<div class="divider"></div>
-
 <section class="section" id="projects">
 	<h2>Projects</h2>
 	<div class="projects">
@@ -68,6 +54,22 @@
 		</div>
 	</div>
 </section>
+
+<svelte:head>
+	<title>Edgars Cirulis — Frontend Developer & Indie Maker</title>
+	<meta
+		name="description"
+		content="Portfolio of Edgars Cirulis — a frontend developer crafting fast, clean, and purposeful web experiences using SvelteKit and modern web tech."
+	/>
+
+	<meta property="og:title" content="Edgars Cirulis — Frontend Developer & Indie Maker" />
+	<meta
+		property="og:description"
+		content="Explore the work of Edgars Cirulis — a self-taught developer passionate about beautiful code, clean UI, and creative tech."
+	/>
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://edgarscirulis.lv" />
+</svelte:head>
 
 <style>
 	h1 {
@@ -170,25 +172,6 @@
 		background: linear-gradient(to right, transparent, #222, transparent);
 		margin: 4rem auto;
 		max-width: 800px;
-	}
-
-	.stack-list {
-		display: flex;
-		justify-content: center;
-		flex-wrap: wrap;
-		gap: 1rem;
-		margin-top: 1rem;
-		padding: 0;
-		list-style: none;
-	}
-
-	.stack-list li {
-		background: rgba(255, 255, 255, 0.05);
-		padding: 0.6rem 1.2rem;
-		border-radius: 999px;
-		color: #c8bfff;
-		font-weight: 500;
-		font-size: 0.9rem;
 	}
 
 	.projects {

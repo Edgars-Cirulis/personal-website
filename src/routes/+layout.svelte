@@ -11,9 +11,7 @@
 
 		<div class="links">
 			<a href="#about">About</a>
-			<a href="#stack">Stack</a>
 			<a href="#projects">Projects</a>
-			<a href="#contact">Contact</a>
 		</div>
 	</div>
 </nav>
@@ -27,7 +25,7 @@
 	<slot />
 </main>
 
-<footer class="footer" id="contact" aria-label="Footer">
+<footer class="footer" aria-label="Footer">
 	<p>© {year} Edgars Cirulis</p>
 	<p>
 		<a href="mailto:edgarsciruliss@email.com">Email</a> •
