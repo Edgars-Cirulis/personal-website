@@ -22,7 +22,10 @@
 	<p class="desc">
 		I build fast, clean, thoughtful software. Minimalist by nature, dreamer at heart.
 	</p>
-	<a class="button" href="/giveaway">Izloze ↓</a>
+	<div class="button-wrapper">
+		<a class="button" href="/giveaway">Izloze / Giveaway</a>
+		<a class="button" href="#about">About me</a>
+	</div>
 </section>
 
 <div class="divider"></div>
@@ -61,7 +64,6 @@
 		name="description"
 		content="Portfolio of Edgars Cirulis — a frontend developer crafting fast, clean, and purposeful web experiences using SvelteKit and modern web tech."
 	/>
-
 	<meta property="og:title" content="Edgars Cirulis — Frontend Developer & Indie Maker" />
 	<meta
 		property="og:description"
@@ -121,7 +123,7 @@
 	}
 
 	.profile-pic:hover {
-		transform: scale(1.02);
+		transform: scale(1.05);
 		box-shadow: 0 0 50px rgba(168, 134, 255, 0.3);
 	}
 
@@ -137,6 +139,11 @@
 		margin: 0 auto 2rem;
 		color: #aaa;
 		line-height: 1.6;
+	}
+
+	.button-wrapper {
+		display: flex;
+		gap: 1rem;
 	}
 
 	.button {
