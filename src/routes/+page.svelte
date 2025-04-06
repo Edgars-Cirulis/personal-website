@@ -33,8 +33,9 @@
 <section class="section" id="about">
 	<h2>About Me</h2>
 	<p>
-		Hey, I’m Edgars — a self-taught developer with a passion for building beautiful, fast, and
-		purposeful software. What started as a hobby became an obsession with crafting seamless UX.
+		Hey, I’m Edgars — a self-taught developer from Latvia with a passion for building beautiful,
+		fast, and purposeful software. What started as a hobby became an obsession with crafting
+		seamless UX.
 	</p>
 	<p>
 		I specialize in frontend development with <strong>SvelteKit</strong>, and also enjoy low-level
@@ -59,18 +60,43 @@
 </section>
 
 <svelte:head>
-	<title>Edgars Cirulis — Frontend Developer & Indie Maker</title>
+	<title>Edgars Cirulis — Frontend Developer & Indie Maker in Latvia</title>
 	<meta
 		name="description"
-		content="Portfolio of Edgars Cirulis — a frontend developer crafting fast, clean, and purposeful web experiences using SvelteKit and modern web tech."
+		content="Edgars Cirulis, a frontend developer and indie maker based in Latvia. Specializing in SvelteKit and building fast, clean, and purposeful web applications."
 	/>
-	<meta property="og:title" content="Edgars Cirulis — Frontend Developer & Indie Maker" />
+	<meta property="og:title" content="Edgars Cirulis — Frontend Developer & Indie Maker in Latvia" />
 	<meta
 		property="og:description"
-		content="Explore the work of Edgars Cirulis — a self-taught developer passionate about beautiful code, clean UI, and creative tech."
+		content="Edgars Cirulis, a self-taught developer from Latvia passionate about clean UI and web experiences using SvelteKit."
 	/>
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://edgarscirulis.lv" />
+
+	<!-- Structured Data for Local SEO -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"name": "Edgars Cirulis",
+			"url": "https://edgarscirulis.lv",
+			"image": "/profile.jpg",
+			"jobTitle": "Frontend Developer & Indie Maker",
+			"address": {
+				"@type": "LV-1064",
+				"addressLocality": "Riga",
+				"addressCountry": "Latvia"
+			},
+			"sameAs": ["https://github.com/edgars-cirulis"]
+		}
+	</script>
+
+	<!-- Geo Tags -->
+	<meta name="geo.position" content="56.894812;24.22567" />
+	<meta name="ICBM" content="56.894812, 24.22567" />
+	<!-- Latitude and Longitude for Riga -->
+	<meta name="geo.placename" content="Riga, Latvia" />
+	<meta name="geo.region" content="LV" />
 </svelte:head>
 
 <style>

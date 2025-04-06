@@ -225,4 +225,27 @@
 		max-width: 600px;
 		margin: 0 auto;
 	}
+
+	@media (max-width: 480px) {
+		.giveaway {
+			padding: 1rem;
+		}
+
+		.form-card {
+			width: 100%;
+		}
+
+		h1 {
+			font-size: 1.8rem;
+		}
+
+		.countdown {
+			font-size: 1rem;
+		}
+
+		input,
+		button {
+			font-size: 1rem;
+		}
+	}
 </style>
