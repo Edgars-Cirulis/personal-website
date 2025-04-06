@@ -22,7 +22,7 @@
 	<p class="desc">
 		I build fast, clean, thoughtful software. Minimalist by nature, dreamer at heart.
 	</p>
-	<a class="button" href="#about">Learn More ↓</a>
+	<a class="button" href="/giveaway">Izloze ↓</a>
 </section>
 
 <div class="divider"></div>
